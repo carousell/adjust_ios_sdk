@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   s.author         = { "Christian Wellenbrock" => "welle@adjust.com" }
   s.source         = { :git => "https://github.com/adjust/ios_sdk.git", :tag => "v4.10.1" }
   s.ios.deployment_target = '6.0'
-  s.tvos.deployment_target = '9.0'
+# s.tvos.deployment_target = '9.0'
   s.framework      = 'SystemConfiguration'
   s.ios.weak_framework = 'AdSupport', 'iAd'
-  s.tvos.weak_framework = 'AdSupport'
+# s.tvos.weak_framework = 'AdSupport'
   s.requires_arc   = true
   s.default_subspec = 'Core'
 
